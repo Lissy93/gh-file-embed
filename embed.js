@@ -250,7 +250,7 @@ function embedCodeToTarget(targetDiv, codeText, showBorder, showLineNumbers, sho
     const rawFileURLSplit = rawFileURL.split("/");
     meta.innerHTML = `<a target="_blank" href="${rawFileURL}" style="float:right">view raw</a>
 <a target="_blank" href="${fileURL}">${rawFileURLSplit[rawFileURLSplit.length - 1]}</a>
-delivered <span class="hide-in-phone">with ❤ </span>by <a target="_blank" href="${serviceProvider}">emgithub</a>`;
+delivered <span class="hide-in-phone">with ❤ </span>by <a target="_blank" href="${serviceProvider}">github-embed.as93.net</a>`;
     meta.classList.add("file-meta");
     if (!isDarkStyle) {
       meta.classList.add("file-meta-light");
